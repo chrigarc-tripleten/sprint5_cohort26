@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 720px;
+    }
+}
